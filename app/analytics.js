@@ -6,7 +6,7 @@ export default function (id, config = {}) {
     gtag('config', id, config);
 
     // https://developers.google.com/analytics/devguides/collection/gtagjs/
-    getScript(`https://www.googletagmanager.com/gtag/js?id=${id}`);
+    //getScript(`https://www.googletagmanager.com/gtag/js?id=${id}`);
 }
 
 export function gtag() {
